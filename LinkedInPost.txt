@@ -1,0 +1,29 @@
+I just finished backtesting three systematic trading strategies across 41 AI and tech stocks from 2022-2024. The results were humbling.
+
+Only 9 out of 120 strategy-stock combinations beat buy-and-hold. That's a 7.5% win rate. The AI bull market was brutal for active strategies.
+
+But the winners were interesting.
+
+The best performer was a low volatility strategy on Airbnb - 118.8% return, beating buy-and-hold by over 100 percentage points. Second place was the same approach on Snowflake at 63.6%.
+
+The pattern? These stocks had sharp selloffs followed by explosive recoveries. The strategy enters during quiet periods after drawdowns and exits when volatility finally breaks out. It caught the recoveries that buy-and-hold investors had to white-knuckle through.
+
+High volatility strategies took 4 of the 9 wins - Cloudflare, ARM, Adobe, Intel. This approach buys when fear spikes and sells when things calm down. Basically trading panic bounces.
+
+Traditional trend following only worked once out of 40 tries. Too much chop and false breakouts.
+
+A few things stand out:
+
+Stock selection mattered more than the strategy itself. The same approaches that won on ABNB got crushed on NVDA and AMD where buy-and-hold returned 200-1300%. You can't out-trade a rocket ship.
+
+Volatility strategies beat trend following 8 to 1. Makes sense - this market was all violent rotations, not smooth trends.
+
+The winners were mostly newer, volatile names rather than mega-caps. Possibly because there's less competition for signals in less efficient stocks.
+
+I built the framework with VectorBT and tested weekly trend following plus two daily volatility strategies. Full results and code are on GitHub with an interactive dashboard.
+
+For anyone running systematic strategies - how did 2022-2024 treat you? Did you find buy-and-hold equally hard to beat?
+
+Dashboard: https://ngrief.github.io/AITester/
+
+#QuantitativeFinance #AlgoTrading #Python #SystematicTrading
